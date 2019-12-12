@@ -1,0 +1,62 @@
+body {
+    background-color: rgb(236, 236, 236);
+}
+
+section {
+    width: 100%;
+    display: flex;
+    border: 1px solid #ccc;
+    margin: 3% auto;
+}
+
+.row {
+    width: 100%;
+}
+
+.box {
+    border: 1px solid #ccc;
+    flex-wrap: wrap;
+
+    margin: 5px;
+    display: inline-flex;
+    background-color: white; 
+    padding: 10px;
+    font-family: Raleway;
+}
+
+.box .foto {
+    width: 30%;
+    justify-content: center;
+    align-items: center;
+}
+
+.box .foto img {
+    width: 80%;
+    justify-content: center;
+    align-items: center;
+}
+.box .foto .social{
+    justify-content: center;
+    align-items: center;
+}
+
+.box .foto .social img {
+    width: 20%;
+}
+
+.box .texto {
+    width: 70%;
+}
+
+button {
+    background-color: rgb(170, 170, 170);
+    border: 0;
+    padding: 9px;
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+
+p {
+    display: block;
+}
